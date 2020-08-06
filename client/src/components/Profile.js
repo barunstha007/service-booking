@@ -568,25 +568,6 @@ function Profile(props) {
             <p className="text-info">{props.userBike.odometer}</p>
           </div>
         </div>
-
-        <div className="row">
-          <div className="col-6 p-1">
-            <label>Total Online Servicing Booked Till Date</label>
-          </div>
-          <div className="col-6 p-1">
-            <p>11</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-6 p-1">
-            <label>Bike Status</label>
-          </div>
-          <div className="col-6 p-1">
-            <p>
-              <span className=" text-warning">Good</span>
-            </p>
-          </div>
-        </div>
       </div>
     );
   }
